@@ -1,7 +1,9 @@
 package ru.netology.domain;
 
 public class Discussion {
-    private String commentID;
-    private String answeredID;
-    private String commentLikesCounter;
+    private int counter;
+    private boolean canPost;
+    private boolean groupsCanPost;
+    private boolean canClose;
+    private boolean canOpen;
 }
